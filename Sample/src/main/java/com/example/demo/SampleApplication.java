@@ -17,4 +17,9 @@ public class SampleApplication {
 	public String hello() {
 		return "Hello Springboot ^________^ !!!";
 	}
+	
+	@GetMapping("/spring")
+	public String spring() {
+		return "봄!~!!!!!";
+	}
 }
