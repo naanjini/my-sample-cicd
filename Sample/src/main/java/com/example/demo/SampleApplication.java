@@ -15,6 +15,6 @@ public class SampleApplication {
 
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello Springboot ^_^ !!!";
+		return "Hello Springboot ^____^ !!!";
 	}
 }
