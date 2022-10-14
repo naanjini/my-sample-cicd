@@ -15,7 +15,7 @@ public class SampleApplication {
 
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello Springboot ^________^ !!!";
+		return "안녕 Github Actions !!!";
 	}
 	
 	@GetMapping("/spring")
